@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Uchen&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Uchen', serif; 
+}
+
+body {
+  width: 100%;
+  background-color: rgb(211, 206, 198);
+}
+
+
+
+.logo-c {
+  position: relative;
+  width: 150px;
+  height: 100px;
+  top: 7px;
+  left: 1000px;
+}
+
+
+
+h1 {
+  font-size: 48px;
+  line-height: 60px;
+  color: rgb(19, 156, 60);
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 52px;
+  color: rgb(120, 69, 18);
+  text-align: center;
+}
+
+h4 {
+  font-size: 18px;
+  color: rgb(160, 66, 3);
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(160, 66, 3);
+}
+
+p {
+  font-size: 15px;
+  color: rgb(160, 66, 3);
+  background-color: rgb(231, 197, 151);
+  margin: 15px 20px 18px 20px;
+}
+
+.sect-p1 {
+  padding: 38px 75px;
+}
+
+.sect-m1 {
+  margin: 35px 0;
+}
+
+button.standard {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10.5px 20px;
+  color: rgb(236, 202, 139);
+  background-color: green;
+  cursor: pointer;
+  border: 1px solid beige;
+  outline: none;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+button.transparent {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 14px 28px;
+  color: rgb(230, 188, 100);
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px;
+  outline: none;
+  transition: 0.5s;
+}
+
+
+/* Header */
+/*
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 18px 75px;
+  background-color: rgb(50, 165, 94);
+  box-shadow: 2 7px 13px rgba(0,0,0,0.05);
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+*/
+.showNav {
+  cursor: pointer;
+}
+
+.navbarr {
+ width: 0;
+ height: 100%;
+ position: fixed;
+ left: 0;
+ top: 0;
+ background-color:rgb(184, 139, 98);
+ overflow-x: hidden;
+ z-index: 1;
+ padding-top: 50px;
+ transition: 0.5s ease-in;
+}
+
+.navbarr a {
+  padding: 5px 5px 5px 25px;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+  color: rgb(48, 92, 5);
+  background-color: rgb(195, 145, 71);  
+  display: block;
+  border-radius: 7px;
+  border: rgb(20, 19, 19);
+  border-width: 5px;
+}
+
+.navbarr a:hover {
+  color: rgb(221, 196, 7);
+}
+
+
+.navbarr .btnHideNavbar {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+.navbarr a:hover,
+.navbarr a.active {
+  color: rgb(5, 68, 31);  
+}
+
+.navbarr a.active::after,
+.navbarr a:hover::after {
+  content: "";
+  height: 3px;
+  width: 33%;  
+  background-color: rgb(76, 151, 151);
+  position: absolute;
+  left: 18px;
+  bottom: -5px;  
+}
+
+.curved-text{
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 32px;
+ }
+ 
+ .curved-text span{
+  min-width: 0.5em;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+ }
+
+ 
